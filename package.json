@@ -1,18 +1,18 @@
 {
-  "description": "Sample npm package that prints hello world",
-  "license": "MIT",
-  "main": "index.js",
-  "name": "@karasu-lab/hello-world",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Karasu-Lab/hello-world.git"
-  },
-  "scripts": {
-    "start": "node index.js"
-  },
-  "type": "module",
-  "version": "0.1.0",
-  "versionNaming": {
-    "pattern": "{version}-{shortCommitHash}"
-  }
+    "description": "Sample npm package that prints hello world",
+    "license": "MIT",
+    "main": "index.js",
+    "name": "@karasu-lab/hello-world",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Karasu-Lab/hello-world.git"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "type": "module",
+    "version": "0.1.0",
+    "versionNaming": {
+        "pattern": "{version}-{shortCommitHash}"
+    }
 }
